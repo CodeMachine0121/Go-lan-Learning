@@ -7,5 +7,5 @@ func main(){
 
 	fmt.Println("x addr: ",xPtr)
 	fmt.Println("x value: ",*xPtr)
-	
+	fmt.Println(&x)
 }

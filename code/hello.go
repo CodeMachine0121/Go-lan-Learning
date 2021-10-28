@@ -5,6 +5,9 @@ func main() {
 
 	var x int;
 	x = 3;
+	
+	test := "TEst" // var test string = "TEST"
+	fmt.Println(&test)
 	fmt.Println(x)
 	x=19
 	fmt.Println(x)
